@@ -154,5 +154,4 @@ app.post("/api/admin/fund/:id", async (req, res) => {
 // ==========================================
 app.listen(PORT, () => {
   console.log(`✅ Prime Wallet API running on port ${PORT}`);
-  console.log(`✅ API Health: https://prime-wallet-bank-api-1.onrender.com/api/health`);
 });
